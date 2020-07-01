@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templates is working</title>
+</head>
+<body>
+<h1> Welcome! Enter your text</h1>
+<form action="/analyze",method="post">
+    <textarea name="text" spellcheck="false" style="margin: 0px; width: 1495px; height: 202px;"></textarea> <br>
+
+    <input type=checkbox name="removepunch">Remove Punctuations <br>
+    <input type=checkbox name="fullcaps">CAPITALIZED <br>
+     <input type=checkbox name="newline">NewLine <br>
+    <input type=checkbox name="spacer">RemoveSpacesRemoval <br>
+    <input type=checkbox name="charcount">Char Count <br>
+    <button type="submit">Analyze Text</button>
+</form>
+</body>
+</html>
